@@ -23,30 +23,36 @@
         </div>
     </header>
     <main class="contenedor">
-        <h1 class="color-white center bold">Contacto</h1>
+        <h1 class="color-white center bold margin-right">Iniciar Sesion</h1>
         <form action="index.html" method="post" class="formulario">
                 <div class="campo">
                     <label class="campo__label" for="email">E-mail:</label>
-                    <input class="campo__field" type="email" name="email-usuario" id="email">              
+                    <input class="campo__field" type="email" name="email-usuario" id="email" placeholder="Email">              
                    
                 </div>
                 <div class="campo">
                     <label class="campo__label" for="contraseña">Contraseña:</label>
-                    <input class="campo__field" type="text" name="contraseña-usuario" id="contraseña">
-                    
+                    <input class="campo__field" type="text" name="contraseña-usuario" id="contraseña" placeholder="Contraseña">
                 </div>
-                <div>
-                    <button type="submit">Login</button>
+                <div class="campo__etiqueta">
+                    <a class="campo__etiqueta-link"href="">¿Olvidaste tu Contraseña?</a>
+                </div>
+                <div class="campo__boton">
+                    <button class="boton--login" type="submit">Crear Cuenta</button>
+                    <button class="boton--login" type="submit">Login</button>
                 </div>
         </form>
     </main>
     <footer class="footer">
         <div class="footer__contenido contenedor">
-            <figure >
+            <figure class="footer_imagen">
                 <img src="icons/33.png" alt="imagen logo">
             </figure>
             <div class="footer__contacto">
                 <a class="etiqueta" href="soporte.html">Contacto</a>
+            </div>
+            <div class="footer__ubicacion">
+                <p class="color-white no-margin">Av. Velez Sársfield 534, Córdoba</p>
             </div>
         </div>
     </footer>
