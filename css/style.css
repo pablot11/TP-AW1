@@ -161,6 +161,7 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:2rem;
+    margin-bottom: 2rem;
     
 }
 /** Pagina Soporte **/
@@ -211,7 +212,7 @@ img{
     display: grid;
     gap: 2rem;
     justify-content: center;
-    margin-bottom: 7rem;
+    margin-bottom: 9rem;
     margin-top: 10rem;
 }
 .campo{
