@@ -8,6 +8,8 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 h1{
     font-size: 4.2rem;
@@ -24,20 +26,12 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(56,182,255,1) 100%, rgba(0,212,255,1) 100%);
 }
-figure{
-    margin: 0;
-}
 figcaption{
     font-size: 2rem;
 }
 p{
     font-size: 2rem;
     font-family: var(--fuenteParrafos);
-}
-img{
-    max-width: 90%;
-    height: 100%;
-    max-height: 90%;
 }
 /** Utilidades **/ 
 .margin-right{
@@ -48,9 +42,6 @@ img{
 }
 .bold{
     font-weight: bold;
-}
-.no-margin{
-    margin:0;
 }
 .center{
     text-align: center;
@@ -65,7 +56,7 @@ img{
 .etiqueta{
     text-decoration: none;
     padding: 1rem 3rem;
- background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,19,127,1) 30%, rgba(9,25,131,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,19,127,1) 30%, rgba(9,25,131,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
     text-align: center;
     border-radius: 0.5rem;
@@ -84,6 +75,7 @@ img{
     align-items: center;
     padding: 2rem;
     gap: 3rem;
+    margin-bottom: 4rem;
 }
 .header__etiquetas{
     display: flex;
@@ -94,6 +86,7 @@ img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:2rem;
+    margin-top: 2rem;
 }
 .main-peliculas__figure{
     text-align: center;
@@ -101,14 +94,20 @@ img{
     font-weight: bold;
     color: white;
 }
+.main-peliculas__figure img{
+    width: 80%;
+    height: 85%;
+    border-radius: 1rem;
+}
 .main-peliculas__figure img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 .main__busqueda{
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin-top: 2rem;
     
 }
 .main__busqueda--input{
@@ -160,9 +159,15 @@ img{
 .main-nosotros__figure{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:2rem;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     
+}
+.main-nosotros__figure img{
+    max-width: 80%;
+    border-radius: 1rem;
 }
 /** Pagina Soporte **/
 .main-soporte{
@@ -212,8 +217,7 @@ img{
     display: grid;
     gap: 2rem;
     justify-content: center;
-    margin-bottom: 9rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 .campo{
     display: flex;
