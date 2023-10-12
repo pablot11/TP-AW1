@@ -6,6 +6,13 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; /* 1 rem = 10px */    
 }
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000030;
+}
 *, *:before, *:after {
     box-sizing: inherit;
     padding: 0;
@@ -14,17 +21,16 @@ html {
 h1{
     font-size: 4.2rem;
     text-align: center;
+    margin-bottom: 4rem;
+    color: white;
 }
 h2{
     font-size: 3.5rem;
 }
 h3{
     font-size: 2.8rem;
-}
-body{
-    margin: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(56,182,255,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    color: white;
 }
 figcaption{
     font-size: 2rem;
@@ -34,48 +40,38 @@ p{
     font-family: var(--fuenteParrafos);
 }
 /** Utilidades **/ 
-.margin-right{
-    margin-right: 6rem;
-}
-.color-white{
-    color: white;
-}
-.bold{
-    font-weight: bold;
-}
-.center{
-    text-align: center;
-}
-.margin-left{
-    margin-left: 2rem;
-}
 .contenedor{
     width: min(90%, 120rem);
-    margin: 0 auto;
+    margin:auto;
+    flex: 1;
 }
 .etiqueta{
     text-decoration: none;
     padding: 1rem 3rem;
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,19,127,1) 30%, rgba(9,25,131,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #38B6FF;
     color: white;
     text-align: center;
     border-radius: 0.5rem;
     font-size: 2rem;
     font-family: var(--fuenteHeading);
     font-weight: bold;
+    transition: background-color 0.3s;
+}
+.etiqueta:hover{
+    background-color: #0064a9;
 }
 /** Pagina Index**/
 /** Nav **/
 .header{
     background-color: black;
+    padding: 1.2rem 2rem;
+    margin-bottom: 4rem;
 }
 .header__nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
     gap: 3rem;
-    margin-bottom: 4rem;
 }
 .header__etiquetas{
     display: flex;
@@ -119,7 +115,7 @@ p{
 }
 .boton{
     color: white;
-    background: linear-gradient(0deg, rgba(6,39,42,1) 0%, rgba(0,0,0,1) 100%);
+    background-color: #38B6FF;
     font-family: var(--fuenteParrafos);
     border: none;
     border-radius: 0.5rem;
@@ -127,19 +123,23 @@ p{
     font-weight: bold;
     width: 10%;
     font-size: 2rem;
+    transition: backgroud-color 0.3s;
 }
 .boton:hover{
     cursor: pointer;
+    background-color: #0064a9;
 }
 /** Footer**/
 .footer{
+
     background-color: black;
 }
 .footer__contenido{
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1.2rem 2rem;
 }
 .footer__contacto{
     display: flex;
@@ -213,7 +213,6 @@ p{
 }
 /** Pagina Login **/
 .formulario{
-    width: 95%;
     display: grid;
     gap: 2rem;
     justify-content: center;
