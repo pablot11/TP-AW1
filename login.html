@@ -5,55 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineOld - Inicio de Sesion</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/display1080px.css" media="(min-width:1080px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <header class="header">
-        <div class="header__nav contenedor">
-            <figure>
+    <header class="header"> <!--Comienzo Header  -->
+        <div class="header__nav container">
+            <figure class="header__figure">
                 <img src="assets/icons/33.png" alt="imagen logo">
             </figure>
-            <nav class= "header__etiquetas">
-                <a class="etiqueta" href="index.html">Catalogo</a>
-                <a class="etiqueta" href="login.html">Login</a>
-                <a class="etiqueta" href="nosotros.html">Nosotros</a>
+            <nav class= "header__links">
+                <a class="header__link" href="index.html">Catalogo</a>
+                <a class="header__link" href="login.html">Login</a>
+                <a class="header__link" href="nosotros.html">Nosotros</a>
             </nav>
         </div>
-    </header>
-    <main class="contenedor">
+    </header><!--Fin Header  -->
+    <main class="container"> <!--Comienzo Main  -->
         <h1 class="">Iniciar Sesion</h1>
-        <form action="index.html" method="post" class="formulario no-margin">
-                <div class="campo">
-                    <label class="campo__label" for="email">E-mail:</label>
-                    <input class="campo__field" type="email" name="email-usuario" id="email" placeholder="Email">              
+        <form action="index.html" method="post" class="form">
+                <div class="form__field">
+                    <label class="form__label" for="email">E-mail:</label>
+                    <input class="form__input" type="email" name="email-usuario" id="email" placeholder="Email">              
                    
                 </div>
-                <div class="campo">
-                    <label class="campo__label" for="contraseña">Contraseña:</label>
-                    <input class="campo__field" type="password" name="contraseña-usuario" id="contraseña" placeholder="Contraseña">
+                <div class="form__field">
+                    <label class="form__label" for="contraseña">Contraseña:</label>
+                    <input class="form__input" type="password" name="contraseña-usuario" id="contraseña" placeholder="Contraseña">
                 </div>
-                <div class="campo__etiqueta">
-                    <a class="campo__etiqueta-link"href="">¿Olvidaste tu Contraseña?</a>
+                <div class="form__link">
+                    <a class="form__link-pswd"href="">¿Olvidaste tu Contraseña?</a>
                 </div>
-                <div class="campo__boton">
-                    <button class="boton--login" type="submit">Crear Cuenta</button>
-                    <button class="boton--login" type="submit">Login</button>
+                <div class="form__button">
+                    <button class="form__button-login" type="submit">Crear Cuenta</button>
+                    <button class="form__button-login" type="submit">Login</button>
                 </div>
         </form>
-    </main>
-    <footer class="footer">
-        <div class="footer__contenido contenedor">
-            <figure class="footer_imagen">
+    </main> <!--Fin Main  -->
+    <footer class="footer"> <!--Comienzo pie  -->
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <a class="footer__link" href="soporte.html">Contacto</a>
+            </div>
+            <div class="footer__ubication">
+                <p class="footer__paragraph">Av. Velez Sársfield 534, Córdoba</p>
+            </div>
+            <figure class="footer__image">
                 <img src="assets/icons/33.png" alt="imagen logo">
             </figure>
-            <div class="footer__contacto">
-                <a class="etiqueta" href="soporte.html">Contacto</a>
-            </div>
-            <div class="footer__ubicacion">
-                <p class="color-white no-margin">Av. Velez Sársfield 534, Córdoba</p>
-            </div>
         </div>
-    </footer>
+    </footer> <!--Fin pie  -->
 </html>
