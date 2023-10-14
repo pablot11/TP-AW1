@@ -1,14 +1,10 @@
 
 /*---------------------Header--------------------*/
-.header{
-    padding: 3rem;
+@media (min-width: 1080px) {
+    .header{
+        padding: 3rem;
+    }
 }
-
-
-
-
-
-
 /*---------------------------------------------------- PAGINAS -----------------------------------------------*/
 
 /*----------------Pagina Index-------------------*/
@@ -43,11 +39,6 @@
 
 /*---------- Main Soporte --------------*/
 @media (min-width: 1080px) {
-    .main-support__network, .main-support__othermedia{
-    }
-    .main-support__media, .main-support__network{
-
-    }
     .main-support__network svg, .main-support__othermedia svg{
         width: 100%;
         height: 7rem;
