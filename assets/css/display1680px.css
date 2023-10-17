@@ -1,49 +1,39 @@
 /* Generales */
-@media (min-width: 1680px){
-    figcaption{
-        font-size: 3rem;
-    }
+figcaption{
+    font-size: 3rem;
 }
 
 /*---------------------Header--------------------*/
-@media (min-width: 1680px){
-    .header__link{
-        padding: 2rem 5rem;
-        font-size: 3rem;
-    }
-    .header__figure img{
-        width: 40rem;
-    }
+.header__link{
+    padding: 2rem 5rem;
+    font-size: 3rem;
+}
+.header__figure img{
+    width: 40rem;
 }
 /* Footer */
-@media (min-width: 1680px) and (min-width:1920px) {
-    .footer__link{
-        padding: 2rem 5rem;
-        font-size: 3rem;
-    }
-    .footer__image img{
-        width: 40rem;
-    }
-    .footer__paragraph{
-        font-size: 3rem;
-    }
+.footer__link{
+    padding: 2rem 5rem;
+    font-size: 3rem;
 }
-
+.footer__image img{
+    width: 40rem;
+}
+.footer__paragraph{
+    font-size: 3rem;
+}
 /*---------------------------------------------------- PAGINAS -----------------------------------------------*/
 
 /*----------------Pagina Index-------------------*/
 
-
 /*------Main Index---------*/
-@media (min-width: 1080px) {
-    .main-movies__figure img{
-        max-width: 80%;
-        max-height: 90%;
-        border-radius: 1rem;
-    }
-    .main__input-search{
-        padding: 1.5rem;
-
-    }
+.main-movies__figure img{
+    max-width: 80%;
+    max-height: 90%;
+    border-radius: 1rem;
 }
+.main__input-search{
+     padding: 1.5rem;
+}
+
 
