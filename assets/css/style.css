@@ -97,6 +97,9 @@ p{
     .header__link{
         background-color: var(--blue);
     }
+    .header__link:last-child{
+        margin-right: 0;
+    }
     .header__link:hover{
         background-color: var(--hover-color);
     }
@@ -223,7 +226,7 @@ p{
     color: var(--white);
 }
 .main-movies__figure img{
-    max-width: 100%;
+    max-width: 65%;
     max-height: 90%;
     border-radius: 1rem;
 }

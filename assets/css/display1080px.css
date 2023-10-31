@@ -13,15 +13,9 @@
 
 
 /*------Main Index---------*/
-.main-movies__figure img{
-    max-width: 75%;
-    max-height: 90%;
-    border-radius: 1rem;
-}
 .main__input-search{
     padding: 1.5rem;
 }
-
 
 /*----------------Pagina Nosotros-------------------*/
 
@@ -29,15 +23,6 @@
 .main-us__paragraph{
     font-size:2rem;
 }
-/* ------------- Pagina Soporte -------------------*/
 
-/*---------- Main Soporte --------------*/
-.main-support__network svg, .main-support__othermedia svg{
-    width: 100%;
-    height: 7rem;
-}
-.main__support-network-link, .main__support-link-media{
-    font-size: 2rem;
-    width: 100%;
-}
+
 

@@ -2,38 +2,13 @@
 figcaption{
     font-size: 3rem;
 }
-
-/*---------------------Header--------------------*/
-.header__link{
-    padding: 2rem 5rem;
-    font-size: 3rem;
-}
-.header__figure img{
-    width: 40rem;
-}
-/* Footer */
-.footer__link{
-    padding: 2rem 5rem;
-    font-size: 3rem;
-}
-.footer__image img{
-    width: 40rem;
-}
-.footer__paragraph{
-    font-size: 3rem;
-}
 /*---------------------------------------------------- PAGINAS -----------------------------------------------*/
 
 /*----------------Pagina Index-------------------*/
 
 /*------Main Index---------*/
-.main-movies__figure img{
-    max-width: 80%;
-    max-height: 90%;
-    border-radius: 1rem;
-}
 .main__input-search{
-     padding: 1.5rem;
+     padding: 1.2rem;
 }
 
 
