@@ -30,7 +30,7 @@ const peliculas = {
                 imagen: "elpadrino2.jpg",
                 año: 1995,
                 genero: "Accion"
-                }  
+            }  
          
         ]
     }
