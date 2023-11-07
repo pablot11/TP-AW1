@@ -1,4 +1,5 @@
 import peliculas from "./peliculas.js"
+/*
 const app = document.getElementById('main');
 let renderizadoHtml = "";
 peliculas.peliculas.forEach(pelicula => {
@@ -19,3 +20,14 @@ app.innerHTML = `
 
 
 `
+*/
+
+fetch('/json/peliculas.json').then((dato)=>{
+    return dato
+}).then((dato)=>{
+    console.log(dato);
+})
+
+
+
+
