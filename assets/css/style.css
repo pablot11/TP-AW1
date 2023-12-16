@@ -231,8 +231,8 @@ p{
     border-radius: 1rem;
 }
 .main-movies__figure img:hover{
-    transform: scale(1.1);
     cursor: pointer;
+    
 }
 @media (min-width: 768px) {
     .main__input-search{
