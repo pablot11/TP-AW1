@@ -1,14 +1,13 @@
 const app = document.getElementById("contenedor-peliculas");
-let html = "";
 fetch('/json/peliculas.json').then((dato)=>{
     return dato.json()
 }).then((dato)=>{
     let peliculas = dato.peliculas.pelicula
-    renderizarHtml(peliculas)
-    app.innerHTML=html;
+    app.innerHTML= renderizarHtml(peliculas);
 })
 
 function renderizarHtml(peliculas){
+    let html = "";
     peliculas.forEach(pelicula => {
         html = html + `<figure class="main-movies__figure">
                             <img src="assets/img/${pelicula.imagen}" alt="img-pelicula">
@@ -16,6 +15,6 @@ function renderizarHtml(peliculas){
                         </figure>`
 
     });
-
+    return html;
 }
 
