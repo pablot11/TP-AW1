@@ -229,10 +229,12 @@ p{
     max-width: 65%;
     max-height: 90%;
     border-radius: 1rem;
+    transition: filter 0.3s;
 }
 .main-movies__figure img:hover{
     cursor: pointer;
-    
+    filter: brightness(40%);
+
 }
 @media (min-width: 768px) {
     .main__input-search{
