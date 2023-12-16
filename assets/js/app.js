@@ -1,5 +1,5 @@
 const app = document.getElementById("contenedor-peliculas");
-fetch('./json/peliculas.json').then((dato)=>{
+fetch('../json/peliculas.json').then((dato)=>{
     return dato.json()
 }).then((dato)=>{
     let peliculas = dato.peliculas.pelicula
