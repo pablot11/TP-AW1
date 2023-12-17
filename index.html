@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">  
-    <script type = "module" src="assets/js/app.js"></script>  
+    <script defer src="assets/js/app.js"></script>  
 </head>
 <body>
     <header class="header"> <!--Comienzo Header  -->
@@ -27,14 +27,24 @@
     </header> <!--Fin Header  -->
     <main class="main"> <!--Comienzo Main  -->
         <h1 class="main__h1">Nuestro Catalogo de Peliculas</h1>
-        <div class="main__search">
-            <input class="main__input-search" type="search" placeholder="Búsqueda" name="search">
-            <button class="main__input-button" type="submit">Buscar</button>
+        <div class="main__tab">
+            <button id ="defaultOpen" class="main__tablinks active">Cátalogo</button>
+            <button class="main__tablinks">Estrenos</button>
         </div>
-        <div class="main-movies container" id="contenedor-peliculas">
-    
+        <div id="Catalogo" class="main__tabcontent">           
+            <div class="main__search container">
+                <input class="main__input-search" type="search" placeholder="Búsqueda" name="search">
+                <button class="main__input-button" type="submit">Buscar</button> 
+            </div>
+            <div class="main-movies container" id="contenedor-peliculas"></div> 
+        </div>
+        <div id="Estrenos" class="main__tabcontent">
+            <div class="main__movies-premiere container" id="container-movies-premiere">
+              
+            </div>   
         </div>
     </main> <!--Fin Main  -->
+        
     <footer class="footer">  <!--Comienzo Pie  -->
         <div class="footer__container container">
             <div class="footer__contact">

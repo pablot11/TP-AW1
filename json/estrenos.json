@@ -1,0 +1,62 @@
+{
+    "estrenos": 
+    {
+        "estreno":[
+            {
+                "nombre": "Cabo del Miedo",
+                "imagen": "cabodelmiedo",
+                "año": 1991,
+                "genero":"terror",
+                "duracion": 163,
+                "sinopsis": "Un asesino psicópata, Max Cady, sale de la cárcel tras cumplir una condena de catorce años, durante los cuales se ha estado preparando para llevar a cabo su venganza contra Sam Bowden, el abogado que le defendió en el juicio, pero que le ocultó información esencial para el proceso. Ahora, Cady está dispuesto a todo con tal de destruir a Bowden y a su familia.",
+                "fecha": "31 de Diciembre"
+            },
+            {
+                "nombre": "EL Irlandés",
+                "imagen": "irlandes",
+                "año": 2019,
+                "genero":"accion",
+                "duracion": 182,
+                "sinopsis": "Frank Sheeran fue un veterano de la Segunda Guerra Mundial, estafador y sicario que trabajó con algunas de las figuras más notables del siglo XX. 'El irlandés' la crónica de uno de los grandes misterios sin resolver del país: la desaparición del legendario sindicalista Jimmy Hoffa. Un gran viaje por los turbios entresijos del crimen organizado: sus mecanismos internos, rivalidades y su conexión con la política.",
+                "fecha": "1 de Enero"
+            },
+            {
+                "nombre": "La Misión",
+                "imagen": "lamision",
+                "año": 1986,
+                "genero":"drama",
+                "duracion": 126,
+                "sinopsis": "En la jungla sudamericana, a mediados del siglo XVIII, los jesuitas dirigían misiones para la conversión al cristianismo de los indios guaraníes. El padre Gabriel se encargaba de una misión en la selva con la ayuda de Rodrigo Mendoza, un mercader de esclavos arrepentido de sus crímenes. Entre los dos crece la comprensión y la amistad, pero chocan porque tienen ideas diferentes sobre cómo defender la misión de los ataques de los portugueses, que están interesados en el tráfico de esclavos.",
+                "fecha": "5 de Enero"
+            },
+            {
+                "nombre": "Miseria",
+                "imagen": "misery",
+                "año": 1980,
+                "genero":"suspenso",
+                "duracion": 154,
+                "sinopsis": "Paul Sheldon, un famoso escritor, sufre un accidente de coche y es rescatado por una fan suya, quien le cuida y le obliga a escribir una nueva novela en la que resucite a su personaje favorito.",
+                "fecha": "7 de Enero"
+
+            },
+            {
+                "nombre": "El Resplandor",
+                "imagen": "resplandor",
+                "año": 1980,
+                "genero":"terror",
+                "duracion": 184,
+                "sinopsis": "Jack Torrance se traslada, junto a su mujer y a su hijo, al impresionante hotel Overlook, en Colorado, para encargarse del mantenimiento de las instalaciones durante la temporada invernal, época en la que permanece cerrado y aislado por la nieve. Su idea es escribir su novela al tiempo que cuida de las instalaciones durante esos largos y solitarios meses de invierno, pero desde su llegada al hotel, Jack comienza a padecer inquietantes trastornos de personalidad, al mismo tiempo que en el lugar comienzan a suceder diversos fenómenos paranormales.",
+                "fecha": "9 de Enero"
+            },
+            {
+                "nombre": "Buenos Muchachos",
+                "imagen": "muchachos",
+                "año": 1990,
+                "genero":"accion",
+                "duracion": 156,
+                "sinopsis": "Henry Hill, hijo de padre irlandés y madre siciliana, vive en Brooklyn y se siente fascinado por la vida que llevan los gángsters de su barrio, donde la mayoría de los vecinos son inmigrantes. Paul Cicero, el patriarca de la familia Pauline, es el protector del barrio. A los trece años, Henry decide abandonar la escuela y entrar a formar parte de la organización mafiosa como chico de los recados; muy pronto se gana la confianza de sus jefes, gracias a lo cual irá subiendo de categoría.",
+                "fecha": "11 de Enero"
+            }       
+        ]
+    }
+} 
